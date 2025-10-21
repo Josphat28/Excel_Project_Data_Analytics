@@ -4,7 +4,7 @@
 
 As a Data Enthusiast exploring the evolving analytics landscape, I initiated this data-driven investigation into the industry's compensation dynamics and skill requirements. Through rigorous analysis of market data, I examined how technical competencies correlate with earning potential, identified regional salary patterns, and uncovered the most valued skills in today's data-driven world.
 
-### Questions I Analyzed
+### Questions I Analyzed:
 
 To understand the data science job market, I asked the following:
 
