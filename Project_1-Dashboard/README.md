@@ -6,7 +6,7 @@
 
 This dashboard provides job seekers with interactive tools to analyze salary data for data-related roles, helping them assess market compensation and negotiate confidently.  
 
-This dashboard uses a real-world dataset sourced from an Excel data‑analysis course; it contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
+This dashboard uses a real-world dataset available in [Resources folder](0_Resources); it contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
 
 ### Dashboard File
 My final dashboard is  
@@ -48,7 +48,7 @@ The dataset used for this project contains real-world data science job informati
 
 ![1_Salary_Dashboard_Chart2.png](/0_Resources/Images/1_Salary_Dashboard_Country_Map.gif)
 
-- 🛠️ **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
+- 🛠️ **Excel Features:** Utilized **Excel's map chart** feature to plot median salaries globally.
 - 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
 - 📊 **Data Representation:** Plotted median salary for each country with available data.
 - 👁️ **Visual Enhancement:** Improved readability and immediate understanding of geographic salary trends.
@@ -73,7 +73,7 @@ IF(
 - 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
 - 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
 - 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
-- **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
+- **🔢 Formula Purpose:** This formula queries the table below, returning the median salary based on job title, country, and type specified.
 
 🍽️ Background Table
 
@@ -90,7 +90,7 @@ IF(
 ```
 
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
-- **🔢 Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
+- **🔢 Formula Purpose:** This formula performs a lookup on the table below, which in return gives us a list of unique job schedule types.
 
 🍽️ Background Table
 
@@ -113,5 +113,5 @@ IF(
 
 ## Conclusion
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries. 
+I created this dashboard to reveals insights into **salary trends** across various data-related job titles. Utilizing data available in [Resources folder](/0_Resources/), this dashboard allows users not only to make informed decisions about their career but also explore diffrent functionalities to understand how location and job type influence salaries. 
 
