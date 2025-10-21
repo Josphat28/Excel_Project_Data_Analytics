@@ -6,25 +6,25 @@
 
 This dashboard provides job seekers with interactive tools to analyze salary data for data-related roles, helping them assess market compensation and negotiate confidently.  
 
-This dashboard uses a real-world dataset available in [Resources folder](0_Resources); it contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
+This dashboard uses a real-world dataset available in [Resources Folder](0_Resources), which provides a foundation in analyzing data using this powerful tool **(Excel)**. It contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
 
 ### Dashboard File
 My final dashboard is  
 
-![1_Salary_Dashboard.png](/0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
+[1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx).
 
 
 ### Excel Skills Used
 
-The following Excel skills were utilized for analysis:
+Employed the following Skills during analysis:
 
 - **📉 Charts**
 - **🧮 Formulas and Functions**
 - **❎ Data Validation**
 
-### Data Jobs Dataset
+### Data Jobs Dataset  
 
-The dataset used for this project contains real-world data science job information from 2023. The dataset is available in [Resources folder](/0_Resources/), which provides a foundation for analyzing data using Excel. It includes detailed information on:
+The dataset utilized in this project comprises authentic data science job listings from 2023, offering a reliable foundation for conducting structured analysis using Excel. It includes detailed information on:
 
 - **👨‍💼 Job titles**
 - **💰 Salaries**
@@ -109,9 +109,12 @@ IF(
     - 🚫 Incorrect or inconsistent entries are prevented
     - 👥 Overall usability of the dashboard is enhanced
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">
+<img src="/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">.
 
 ## Conclusion
 
-I created this dashboard to present insights into **salary trends** across various data-related job titles. Utilizing data available in [Resources folder](/0_Resources/), this dashboard allows users to not only make informed decisions about their career but also explore different functionalities to understand how location and job type influence salaries. 
+I created this dashboard to present insights into **Salary Trends** across various data-related job titles which allows users to not only make informed decisions about their career but also explore different functionalities to understand how location and job type influence salaries.  
+
+For a deeper analysis of skill-based salary patterns and market trends, be sure to proceed to [Project Two](Project_2-Analysis).
+
 
