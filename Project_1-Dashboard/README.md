@@ -113,5 +113,5 @@ IF(
 
 ## Conclusion
 
-I created this dashboard to reveals insights into **salary trends** across various data-related job titles. Utilizing data available in [Resources folder](/0_Resources/), this dashboard allows users not only to make informed decisions about their career but also explore diffrent functionalities to understand how location and job type influence salaries. 
+I created this dashboard to present insights into **salary trends** across various data-related job titles. Utilizing data available in [Resources folder](/0_Resources/), this dashboard allows users to not only make informed decisions about their career but also explore different functionalities to understand how location and job type influence salaries. 
 
