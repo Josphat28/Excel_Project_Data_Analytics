@@ -11,7 +11,7 @@ The data is from my Excel course, which provides a foundation in analyzing data 
 ### Dashboard File
 My final dashboard is  
 
-![1_Salary_Dashboard.png](0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
+![1_Salary_Dashboard.png](/0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
 
 
 ### Excel Skills Used
