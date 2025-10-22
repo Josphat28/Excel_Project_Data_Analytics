@@ -20,7 +20,9 @@ Sneak Peak of what to Expect.
 ![Skill Likelyhood](0_Resources/Images/2_Project_Analysis_Chart4.png)  
  
 
-# You might be wondering how I ended up with such Projects, Well, here's all I went through  
+# Wondering how I ended up with such Projects? Well, here's all I went through  
+
+# You can trace the two Projects in the breakdown here:  
 
 ## Table of Contents
 
@@ -56,6 +58,7 @@ Sneak Peak of what to Expect.
 - Conditional Formatting
 - Formatting
 - Collaboration
+- Project One 
 ### [Chapter 5: Pivot Tables](/5_Pivot_Tables/)
 - Pivot Tables
 - Pivot Charts
@@ -75,3 +78,4 @@ Sneak Peak of what to Expect.
 - Power Pivot
 - Power Pivot DAX
 - Power Pivot Data Models
+- Project Two
