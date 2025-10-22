@@ -20,9 +20,8 @@ Sneak Peak of what to Expect.
 ![Skill Likelyhood](0_Resources/Images/2_Project_Analysis_Chart4.png)  
  
 
-# Wondering how I ended up with such Projects? Well, here's all I went through  
-
-# You can trace the two Projects in the breakdown here:  
+# Wondering how I ended up with such Projects? Well, here's all I went through.   
+ 
 
 ## Table of Contents
 
@@ -31,7 +30,7 @@ Sneak Peak of what to Expect.
 - The Workbooks to solve practice problems
     - [I'm here, Click Me](https://lukebarousse.com/excel)
 
-### [Chapter 1: Spreadsheets_Intro](/1_Spreadsheets_Intro/)
+### [Chapter 1: Spreadsheets Intro](/1_Spreadsheets_Intro/)
 - Worksheets
 - Workbooks
 - Ribbon
@@ -57,8 +56,9 @@ Sneak Peak of what to Expect.
 - Tables
 - Conditional Formatting
 - Formatting
-- Collaboration
-- Project One 
+- Collaboration  
+- ###   [Project One](Project_1-Dashboard)  
+
 ### [Chapter 5: Pivot Tables](/5_Pivot_Tables/)
 - Pivot Tables
 - Pivot Charts
@@ -77,5 +77,6 @@ Sneak Peak of what to Expect.
 ### [Chapter 8: Power Pivot](/8_Power_Pivot/)
 - Power Pivot
 - Power Pivot DAX
-- Power Pivot Data Models
-- Project Two
+- Power Pivot Data Models  
+
+- ### [Project Two](Project_2-Analysis)  
