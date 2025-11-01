@@ -1,34 +1,34 @@
 # My Excel Data Analytics Projects  
-
-
+A curated showcase of Excel-powered analytics built to explore salary dynamics, skill value, and market trends in the data industry. These projects combine dashboard design, advanced formulas, and Power tools to deliver insights that matter.
 ## 1. Salary Dashboard  
-This dashboard provides job seekers with interactive tools to analyze salary data for Data-related roles, helping them assess market compensation and negotiate confidently.  
+This dashboard provides job seekers with interactive tools to analyze salary data for Data-related roles, helping them assess market compensation and negotiate confidently.
 
-[check out my work here](Project_1-Dashboard)  
+[View the dashboard](Project_1-Dashboard) 
 
 ![Salary Dashboard](0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)  
+*Animated dashboard showing salary breakdowns by role, location and schedule type*
 
 ## 2. Salary Analysis  
-As a Data Enthusiast exploring the evolving analytics landscape, I initiated this data-driven investigation into the industry's compensation dynamics and skill requirements. Through rigorous analysis of market data, I examined how technical competencies correlate with earning potential, identified regional salary patterns, and uncovered the most valued skills in today's data-driven world.  
+As a data enthusiast exploring the evolving analytics landscape, I launched this investigation into industry compensation and skill demand. Using Excel’s advanced tools, I uncovered how technical competencies correlate with earning potential, regional salary patterns, and the most valued skills in today’s market.  
 
-[check out my work here](Project_2-Analysis)  
+[Explore tha analysis](Project_2-Analysis)  
 
 Sneak Peak of what to Expect.  
 
 ![Pay](0_Resources/Images/2_Project_Analysis_Chart1.png)  
+*Bar chart showing salary distribution across job titles.*
 
 ![Skill Likelyhood](0_Resources/Images/2_Project_Analysis_Chart4.png)  
- 
+ *Heatmap showing likelihood of skill appearance in high-paying roles.*
 
-# Wondering how I ended up with such Projects? Well, here's all I went through.   
- 
+# 🧭 How I Got Here
+This journey was powered by hands-on practice, guided coursework, and a relentless drive to master Excel’s full potential. Below is a structured breakdown of the learning path that shaped these projects.
 
-## Table of Contents
+## 📚 Table of Contents
 
 ### [Course Problem Workbooks](/0_Resources/Problems/)
-
-- The Workbooks to solve practice problems
-    - [I'm here, Click Me](https://lukebarousse.com/excel)
+- Practice workbook for real_world scenarios
+    - [Try them here](https://lukebarousse.com/excel)
 
 ### [Chapter 1: Spreadsheets Intro](/1_Spreadsheets_Intro/)
 - Worksheets
