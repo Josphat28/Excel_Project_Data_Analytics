@@ -6,7 +6,7 @@
 
 This dashboard provides job seekers with interactive tools to analyze salary data for data-related roles, helping them assess market compensation and negotiate confidently.  
 
-This dashboard uses a real-world dataset available in [Resources Folder](0_Resources), which provides a foundation in analyzing data using this powerful tool **(Excel)**. It contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
+This dashboard uses a real-world dataset available in [Resources Folder](Excel_Project_Data_Analytics/tree/main/0_Resources), which provides a foundation in analyzing data using this powerful tool **(Excel)**. It contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
 
 ### Dashboard File
 My final dashboard is  
