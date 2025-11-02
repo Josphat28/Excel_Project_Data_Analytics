@@ -16,10 +16,10 @@ As a data enthusiast exploring the evolving analytics landscape, I launched this
 Sneak Peak of what to Expect.  
 
 ![Pay](0_Resources/Images/2_Project_Analysis_Chart1.png)  
-*Bar chart showing salary distribution across job titles.*
+*Bar chart showing salary distribution and skills requested across job titles.*
 
 ![Skill Likelyhood](0_Resources/Images/2_Project_Analysis_Chart4.png)  
- *Heatmap showing likelihood of skill appearance in high-paying roles.*
+ *Heatmap showing skill likelihood and their pay.*
 
 # 🧭 How I Got Here
 This journey was powered by hands-on practice, guided coursework, and a relentless drive to master Excel’s full potential. Below is a structured breakdown of the learning path that shaped these projects.
