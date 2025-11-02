@@ -6,7 +6,7 @@
 
 This dashboard provides job seekers with interactive tools to analyze salary data for data-related roles, helping them assess market compensation and negotiate confidently.  
 
-This dashboard uses a real-world dataset available in [Resources Folder](0_Resources/Datasets), which provides a foundation in analyzing data using this powerful tool **(Excel)**. It contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
+This dashboard uses a real-world dataset available in [Resources Folder](/0_Resources), which provides a foundation in analyzing data using this powerful tool **(Excel)**. It contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
 
 ### Dashboard File
 My final dashboard is  
@@ -115,6 +115,6 @@ IF(
 
 I created this dashboard to present insights into **Salary Trends** across various data-related job titles which allows users to not only make informed decisions about their career but also explore different functionalities to understand how location and job type influence salaries.  
 
-For a deeper analysis of skill-based salary patterns and market trends, be sure to proceed to [Project Two](Project_2-Analysis).
+For a deeper analysis of skill-based salary patterns and market trends, be sure to proceed to [Project Two](/Project_2-Analysis).
 
 
