@@ -11,7 +11,7 @@ This dashboard provides job seekers with interactive tools to analyze salary dat
 ## 2. Salary Analysis  
 As a data enthusiast exploring the evolving analytics landscape, I launched this investigation into industry compensation and skill demand. Using Excel’s advanced tools, I uncovered how technical competencies correlate with earning potential, regional salary patterns, and the most valued skills in today’s market.  
 
-[Explore tha analysis](Project_2-Analysis)  
+[Explore the analysis](Project_2-Analysis)  
 
 Sneak Peak of what to Expect.  
 
@@ -28,7 +28,7 @@ This journey was powered by hands-on practice, guided coursework, and a relentle
 
 ### [Course Problem Workbooks](/0_Resources/Problems/)
 - Practice workbook for real_world scenarios
-    - [Try them here](https://lukebarousse.com/excel)
+    - [Try them here](0_Resources\Problems)
 
 ### [Chapter 1: Spreadsheets Intro](/1_Spreadsheets_Intro/)
 - Worksheets
