@@ -110,7 +110,7 @@ This allows both dimensions - how much a skill pays and how commonly it appears 
 
 ![Skill Pay Chart](/0_Resources/Images/2_Project_Analysis_Chart4.png)
 
-The salary range across all 10 skills is surprisingly compressed - from ~$82K (Word) to ~$98K (Python), a $16K spread. The more telling signal is the relationship between likelihood and pay. Python leads on salary and still appears in ~30% of postings - high reward, high demand. Oracle pays nearly as well (~$95K) but appears in only ~7% of postings - a specialization premium for a tool the market needs but few people have. SQL is the inverse: highest likelihood (~52%) but mid-table on salary (~$92K). Ubiquity has priced it in. Excel appears in ~40% of postings but pays ~$85K - widely required, poorly compensated. The market is telling you something: being common isn't the same as being valuable.
+The salary range across all 10 skills is surprisingly compressed - from $82K (Word) to $98K (Python), a $16K spread. The more telling signal is the relationship between likelihood and pay. Python leads on salary and still appears in 30% of postings - high reward, high demand. Oracle pays nearly as well ($95K) but appears in only 7% of postings - a specialization premium for a tool the market needs but few people have. SQL is the inverse: highest likelihood (52%) but mid-table on salary ($92K). Ubiquity has priced it in. Excel appears in 40% of postings but pays $85K - widely required, poorly compensated. The market is telling you something: being common isn't the same as being valuable.
 
 ---
 

@@ -12,7 +12,7 @@ An interactive dashboard for exploring compensation across data-related roles. F
 
 [View the Dashboard](Project_1-Dashboard)
 
-![Salary Dashboard](0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
+![Salary Dashboard](0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)  
 *Salary breakdowns by role, location, and schedule type*
 
 ---
@@ -23,10 +23,10 @@ A structured investigation into what the data job market actually rewards - whic
 
 [Explore the Analysis](Project_2-Analysis)
 
-![Salary by Skills](0_Resources/Images/2_Project_Analysis_Chart1.png)
+![Salary by Skills](0_Resources/Images/2_Project_Analysis_Chart1.png)  
 *Salary distribution and skill demand across job titles*
 
-![Skill Pay Heatmap](0_Resources/Images/2_Project_Analysis_Chart4.png)
+![Skill Pay Heatmap](0_Resources/Images/2_Project_Analysis_Chart4.png)  
 *Skill likelihood versus median pay*
 
 ---
