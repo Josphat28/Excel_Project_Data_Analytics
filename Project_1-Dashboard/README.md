@@ -1,64 +1,38 @@
-# Excel Salary Dashboard
+# Salary Dashboard
 
-![1_Salary_Dashboard.png](/0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
+![Salary Dashboard](/0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
 
-## Introduction
+## Overview
 
-This dashboard provides job seekers with interactive tools to analyze salary data for data-related roles, helping them assess market compensation and negotiate confidently.  
+An interactive Excel dashboard for exploring compensation across data-related roles. Built on a real-world dataset of 2023 job listings, it lets users filter by job title, country, and schedule type to surface median salaries.
 
-This dashboard uses a real-world dataset available in [Resources Folder](/0_Resources), which provides a foundation in analyzing data using this powerful tool **(Excel)**. It contains job titles, salary values, locations, and associated skills and has been cleaned and anonymized for analysis.
+**Dashboard file:** [1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx)  
+**Dataset:** [Resources Folder](/0_Resources) - job titles, salaries, locations, and skills from 2023 data science listings.
 
-### Dashboard File
-My final dashboard is  
+---
 
-[1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx).
+## Build
 
+### Charts
 
-### Excel Skills Used
+#### Bar Chart - Data Science Job Salaries
 
-Employed the following Skills during analysis:
+![Bar Chart](/0_Resources/Images/1_Salary_Dashboard_Chart1.png)
 
-- **📉 Charts**
-- **🧮 Formulas and Functions**
-- **❎ Data Validation**
+A horizontal bar chart of median salaries by job title, sorted descending. The tier structure is stark: Senior Data Scientist, Machine Learning Engineer, and Senior Data Engineer all sit at $150K–$155K, forming a clear top bracket. Data Scientist, Data Engineer, and Software Engineer cluster in the $125K–$130K range. Then there's a visible drop - Cloud Engineer at $115K, Senior Data Analyst at $105K - before Analyst roles bottom out around $90K. The gap between the top bracket and the Analyst floor is $65K. Role level, not just seniority, is the primary driver.
 
-### Data Jobs Dataset  
+#### Map Chart - Country Median Salaries
 
-The dataset utilized in this project comprises authentic data science job listings from 2023, offering a reliable foundation for conducting structured analysis using Excel. It includes detailed information on:
+![Country Map](/0_Resources/Images/1_Salary_Dashboard_Country_Map.gif)
 
-- **👨‍💼 Job titles**
-- **💰 Salaries**
-- **📍 Locations**
-- **🛠️ Skills**
+A color-coded global map plotting median salary by country. Large portions of Africa, Central Asia, and parts of Southeast Asia show no data - gray, not low-paying, just absent from the dataset. The coverage itself is a finding: the 2023 data science job market, as captured here, is concentrated in North America, Europe, Australia, and pockets of South America and Asia. 
 
-## Dashboard Build
+---
 
-### 📉 Charts
+### Formulas and Functions
 
-#### 📊 Data Science Job Salaries - Bar Chart
-
-![salary_dashboard_chart1.png](/0_Resources/Images/1_Salary_Dashboard_Chart1.png)
-
-- 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
-- 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
-- 📉 **Data Organization:** Sorted job titles by descending salary for improved readability.
-- 💡 **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
-
-#### 🗺️ Country Median Salaries - Map Chart
-
-![1_Salary_Dashboard_Chart2.png](/0_Resources/Images/1_Salary_Dashboard_Country_Map.gif)
-
-- 🛠️ **Excel Features:** Utilized **Excel's map chart** feature to plot median salaries globally.
-- 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
-- 📊 **Data Representation:** Plotted median salary for each country with available data.
-- 👁️ **Visual Enhancement:** Improved readability and immediate understanding of geographic salary trends.
-- 💡 **Insights Gained:** Enables quick grasp of global salary disparities and highlights high/low salary regions.
-
-### 🧮 Formulas and Functions
-
-#### 💰 Median Salary by Job Titles
-
-```
+#### Median Salary by Job Title
+```excel
 =MEDIAN(
 IF(
     (jobs[job_title_short]=A2)*
@@ -70,51 +44,33 @@ IF(
 )
 ```
 
-- 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
-- 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
-- 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
-- **🔢 Formula Purpose:** This formula queries the table below, returning the median salary based on job title, country, and type specified.
+An array formula combining MEDIAN() and IF() to filter across four criteria simultaneously - job title, country, schedule type, and non-blank salaries. Powers the background table that feeds the dashboard's dynamic salary display.
 
-🍽️ Background Table
+![Background Table](/0_Resources/Images/1_Salary_Dashboard_Screenshot1.png)
 
-![1_Salary_Dashboard_Screenshot1.png](/0_Resources/Images/1_Salary_Dashboard_Screenshot1.png)
+![Dashboard Implementation](/0_Resources/Images/1_Salary_Dashboard_Job_Title.png)
 
-📉 Dashboard Implementation
-
-![img src](/0_Resources/Images/1_Salary_Dashboard_Job_Title.png)
-
-#### ⏰ Count of Job Schedule Type
-
-```
+#### Job Schedule Type - Filtered List
+```excel
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 
-- 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
-- **🔢 Formula Purpose:** This formula performs a lookup on the table below, which in return gives us a list of unique job schedule types.
+Generates a clean list of unique schedule types by stripping out combined entries (those containing "and" or commas) and zero values. Feeds the schedule type dropdown in the dashboard.
 
-🍽️ Background Table
+![Background Table](/0_Resources/Images/1_Salary_Dashboard_Screenshot2.png)
 
-![1_Salary_Dashboard_Type.png](/0_Resources/Images/1_Salary_Dashboard_Screenshot2.png)
+![Dashboard Implementation](/0_Resources/Images/1_Salary_Dashboard_Type.png)
 
-📉 Dashboard Implementation:
+---
 
-![img src](/0_Resources/Images/1_Salary_Dashboard_Type.png)
+### Data Validation
 
-### ❎ Data Validation
+The filtered schedule type list is applied as a data validation rule across the Job Title, Country, and Type dropdowns. This matters here specifically because the median salary formula depends on exact matches - any inconsistent or free-text entry would silently break the output rather than throw an error.
 
-#### 🔍 Filtered List
+![Final Dashboard](/0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
 
-- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` option in the Data tab ensures:
-    - 🎯 User input is restricted to predefined, validated schedule types
-    - 🚫 Incorrect or inconsistent entries are prevented
-    - 👥 Overall usability of the dashboard is enhanced
-
-![img src](/0_Resources/Images/1_Salary_Dashboard_Final_Dashboard.gif)
+---
 
 ## Conclusion
 
-I created this dashboard to present insights into **Salary Trends** across various data-related job titles which allows users to not only make informed decisions about their career but also explore different functionalities to understand how location and job type influence salaries.  
-
-For a deeper analysis of skill-based salary patterns and market trends, be sure to proceed to [Project Two](/Project_2-Analysis).
-
-
+The dashboard makes one thing immediately clear: compensation in data roles is tiered, not graduated. The $65K gap between a Senior Data Scientist at $155K and a Data Analyst at $90K isn't a smooth climb - it's two distinct markets sitting on the same chart. Location and schedule type refine the picture, but the bar chart settles the primary question before you touch a dropdown. For a deeper look at which skills drive those salary differences and how demand varies across the market, see [Project 2](/Project_2-Analysis).
